@@ -192,3 +192,16 @@ Ví dụ cụ thể: `<nav>` cho menu điều hướng. Trình đọc màn hình
 
 Tất nhiên, `<div>` vẫn có chỗ đứng. Khi cần một container để nhóm nội dung hoặc áp dụng CSS mà không có thẻ semantic phù hợp, `<div>` là lựa chọn hợp lý. Tuy nhiên, việc kết hợp semantic HTML với `<div>` đúng chỗ sẽ tạo ra trang web vừa chuẩn kỹ thuật, vừa thân thiện với người dùng.
 
+
+#Câu B3:
+Lỗi 1: Dòng 1 — Thiếu khai báo <!DOCTYPE html> chuẩn — Sửa thành <!DOCTYPE html>
+Lỗi 2: Dòng 2 — Thẻ <html> thiếu thuộc tính lang — Thêm lang="vi"
+Lỗi 3: Dòng 5 — Thẻ <title> chưa đóng — Thêm </title>
+Lỗi 4: Dòng 6 — charset viết sai "utf8" — Sửa thành "utf-8"
+Lỗi 5: Dòng 9 — Thẻ <h1> chưa đóng đúng — Sửa thành </h1>
+Lỗi 6: Dòng 13 — Thẻ <a> chưa đóng — Thêm </a>
+Lỗi 7: Dòng 23 — Thẻ <img> thiếu dấu ngoặc kép và alt — Sửa thành <img src="iphone.jpg" alt="iPhone 16 Pro">
+Lỗi 8: Dòng 26 — Thẻ <b> và <p> lồng sai — Đặt <b> bên trong <p> và đóng đúng
+Lỗi 9: Dòng 31 — Bảng thiếu thead/tbody — Thêm <thead>, <tbody>
+Lỗi 10: Dòng 45 — Dùng 2 <main> — Sửa thành <aside> cho sidebar
+Lỗi 11: Dòng 49 — Thẻ <p> trong footer chưa đóng — Thêm </p>
